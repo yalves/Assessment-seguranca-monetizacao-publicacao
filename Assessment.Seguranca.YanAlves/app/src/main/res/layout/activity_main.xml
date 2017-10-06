@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yanal.assessmentsegurancayanalves.MainActivity">
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="496dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <EditText
+            android:id="@+id/txtBoxNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="nome"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/txtBoxEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <EditText
+            android:id="@+id/txtBoxSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="senha"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <EditText
+            android:id="@+id/txtBoxConfirmarSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="confirmar senha"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <EditText
+            android:id="@+id/txtBoxCpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="cpf"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="SalvarFormulario"
+            android:text="Salvar"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="LimparFormulario"
+            android:text="Limpar"
+            tools:layout_editor_absoluteX="195dp"
+            tools:layout_editor_absoluteY="389dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
